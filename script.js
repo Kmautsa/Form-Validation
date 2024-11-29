@@ -14,4 +14,4 @@ function validateForm() {
 form.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevents form submission
     validateForm();
-});
+}); 
